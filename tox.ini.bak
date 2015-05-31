@@ -1,9 +1,0 @@
-[tox]
-envlist = py26,py27,py34
-
-[testenv]
-deps=
-   pytest
-   mock
-commands=
-  py.test {posargs}
